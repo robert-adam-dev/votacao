@@ -1,0 +1,25 @@
+votacao:
+  configurations:
+    server:
+      contextPath: ~
+      port: ~
+
+server:
+  port: ${votacao.configurations.server.port}
+  servlet:
+    contextPath: ${votacao.configurations.server.contextPath}
+    application-display-name: Votacao App
+
+
+spring:
+  jackson:
+    default-property-inclusion: non_null
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: false
+  mvc:
+    throw-exception-if-no-handler-found: true
+
+springdoc:
+  api-docs:
+    enabled: false
+

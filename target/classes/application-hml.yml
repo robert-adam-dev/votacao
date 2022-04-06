@@ -1,0 +1,6 @@
+votacao:
+  configurations:
+    server:
+      contextPath: /api.hml-votacao
+      port: 8080
+

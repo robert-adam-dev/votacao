@@ -1,0 +1,5 @@
+votacao:
+  configurations:
+    server:
+      contextPath: /api.dev-votacao
+      port: 8080

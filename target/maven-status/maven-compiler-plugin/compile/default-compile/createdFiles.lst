@@ -1,0 +1,12 @@
+com\example\application\api\VoteApi.class
+com\example\application\dto\InputStartSessionDto.class
+com\example\application\dto\InputUpdateStaveDto.class
+com\example\application\api\StaveApi.class
+com\example\application\dto\StaveDto.class
+com\example\application\dto\ErrorDto.class
+com\example\application\dto\ErrorAllOfDto.class
+com\example\application\dto\InputIncludeVoteDto.class
+com\example\application\dto\InputNewStaveDto.class
+com\example\application\dto\ErrorBaseDto.class
+com\example\application\api\ApiUtil.class
+com\example\application\dto\ErrorDetailsDto.class

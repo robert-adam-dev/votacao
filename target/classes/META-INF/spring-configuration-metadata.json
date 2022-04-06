@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "votacao.configurations.server",
+      "type": "com.example.demo.structure.config.properties.ServerProperties",
+      "sourceType": "com.example.demo.structure.config.properties.ServerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "votacao.configurations.server.context-path",
+      "type": "java.lang.String",
+      "sourceType": "com.example.demo.structure.config.properties.ServerProperties"
+    },
+    {
+      "name": "votacao.configurations.server.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.demo.structure.config.properties.ServerProperties"
+    }
+  ],
+  "hints": []
+}
